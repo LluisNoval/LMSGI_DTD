@@ -1,0 +1,9 @@
+<!ELEMENT esdeveniments (esdeveniment*)>
+<!ELEMENT esdeveniment (grup, lloc, data, entrada)>
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+<!ATTLIST entrada gratuita (si|no) #REQUIRED>
+<!-- Per a poer fer be lel dtd es tindria que possar 
+un preu de 0 a la entrada gratuita -->
